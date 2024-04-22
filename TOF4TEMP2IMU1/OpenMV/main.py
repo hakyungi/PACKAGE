@@ -257,3 +257,4 @@ while(True):
     # 이부분을 수정해서 Master로부터 명령을 받을 수 있다.
     if uart.any() > 0:
         print("RECEIVE : ",uart.read(uart.any()))
+    sleep_ms(500)
